@@ -36,23 +36,6 @@ X_RapidAPI_Key = ' ' // English 2 Spelling Checker API Key
 Elastic_Search_API_Key = ' ' // Elasticsearch API Key
 ```
 
-Start the development server: `npm start`
+Start the development server: `npm run dev`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-
-## Screenshots:
-(Insert screenshots here)
-
-## Additional Notes:
-For detailed information on project architecture, functionality, and usage, refer to the project's documentation.
-Contributions and feedback are welcome. Feel free to submit a pull request or open an issue on GitHub.
-Contributors:
-John Doe (john.doe@example.com)
-Jane Smith (jane.smith@example.com)
-License:
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-[`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
-[Next.js deployment documentation]
