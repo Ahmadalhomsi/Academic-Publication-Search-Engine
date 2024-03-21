@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ Project Title: Academic Publication Search Engine
+ ===============
 
-## Getting Started
+## **Overview**:
+This project aims to develop a user-friendly web interface for searching and accessing academic publications retrieved through web scraping from academic search engines like Google Scholar. The collected data is stored in a MongoDB database and indexed using Elasticsearch for efficient querying. The web interface allows users to search for publications based on keywords, apply filters, and sort results based on publication date or citation count.
 
-First, run the development server:
+
+## Features:
+Web Scraping: Utilizes web scraping techniques to retrieve academic publication data from search engine results pages (SERPs).  
+Database: Stores publication data in a MongoDB database for efficient retrieval and management.  
+Search Engine: Implements Elasticsearch for powerful and fast search capabilities.  
+User Interface: Provides a user-friendly web interface for searching and browsing academic publications.  
+Filters and Sorting: Allows users to filter search results based on various criteria and sort publications by date or citation count.  
+Spelling Checker: Integrates with Textgears and X-RapidAPI for English spelling checking capabilities.  
+
+
+## Technologies Used:
+**Frontend**: React.js  
+**Backend**: Node.js, Next.js  
+**Database**: MongoDB  
+**Search Engine**: Elasticsearch  
+**Web Scraping**: Axios, Cheerio, Puppeteer  
+**Spelling Checker APIs**: Textgears, X-RapidAPI  
+
+![alt text](<Screenshot (1).png>)
+## Setup Instructions:
+Clone the repository: git clone https://github.com/yourusername/academic-publication-search.git  
+Navigate to the project directory: cd academic-publication-search  
+Install dependencies: ``npm install``  
+Create a .env file in the project root and add the following variables:  
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Mongo_DB = ' ' // Database URI Link
+Textgears_API_Key = ' ' // English Spelling Checker API Key
+X_RapidAPI_Key = ' ' // English 2 Spelling Checker API Key
+Elastic_Search_API_Key = ' ' // Elasticsearch API Key
 ```
+
+Start the development server: `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Screenshots:
+(Insert screenshots here)
 
-## Learn More
+## Additional Notes:
+For detailed information on project architecture, functionality, and usage, refer to the project's documentation.
+Contributions and feedback are welcome. Feel free to submit a pull request or open an issue on GitHub.
+Contributors:
+John Doe (john.doe@example.com)
+Jane Smith (jane.smith@example.com)
+License:
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
+[Next.js deployment documentation]
