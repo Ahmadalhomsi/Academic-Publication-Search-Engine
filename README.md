@@ -15,6 +15,7 @@ Spelling Checker: Integrates with Textgears and X-RapidAPI for English spelling 
 
 
 ## Technologies Used:
+**Search Engine**: Google Scholar (PDF download not included), Dergi Park 
 **Frontend**: React.js  
 **Backend**: Node.js, Next.js  
 **Database**: MongoDB  
