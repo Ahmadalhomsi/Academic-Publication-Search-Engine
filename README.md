@@ -22,7 +22,6 @@ Spelling Checker: Integrates with Textgears and X-RapidAPI for English spelling 
 **Web Scraping**: Axios, Cheerio, Puppeteer  
 **Spelling Checker APIs**: Textgears, X-RapidAPI  
 
-![alt text](<Screenshot (1).png>)
 ## Setup Instructions:
 Clone the repository: git clone https://github.com/yourusername/academic-publication-search.git  
 Navigate to the project directory: cd academic-publication-search  
