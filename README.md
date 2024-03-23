@@ -15,7 +15,7 @@ Spelling Checker: Integrates with Textgears and X-RapidAPI for English spelling 
 
 
 ## Technologies Used:
-**Search Engine**: Google Scholar (PDF download not included), Dergi Park 
+**Search Engine**: Google Scholar (PDF download not included), Dergi Park  
 **Frontend**: React.js  
 **Backend**: Node.js, Next.js  
 **Database**: MongoDB  
@@ -24,7 +24,7 @@ Spelling Checker: Integrates with Textgears and X-RapidAPI for English spelling 
 **Spelling Checker APIs**: Textgears, X-RapidAPI  
 
 ## Setup Instructions:
-Clone the repository: git clone https://github.com/yourusername/academic-publication-search.git  
+Clone the repository: git clone https://github.com/Ahmadalhomsi/Academic-Publication-Search-Engine  
 Navigate to the project directory: cd academic-publication-search  
 Install dependencies: ``npm install``  
 Create a .env file in the project root and add the following variables:  
