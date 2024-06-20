@@ -39,3 +39,13 @@ Elastic_Search_API_Key = ' ' // Elasticsearch API Key
 Start the development server: `npm run dev`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Screenshots
+![](<https://github.com/Ahmadalhomsi/Academic-Publication-Search-Engine/blob/Academic-Publication-Search-Engine/public/1.png>)
+![](<https://github.com/Ahmadalhomsi/Academic-Publication-Search-Engine/blob/Academic-Publication-Search-Engine/public/2.png>)
+![](<https://github.com/Ahmadalhomsi/Academic-Publication-Search-Engine/blob/Academic-Publication-Search-Engine/public/3.png>)
+![](<https://github.com/Ahmadalhomsi/Academic-Publication-Search-Engine/blob/Academic-Publication-Search-Engine/public/4.png>)
+![](<https://github.com/Ahmadalhomsi/Academic-Publication-Search-Engine/blob/Academic-Publication-Search-Engine/public/5.png>)
+![](<https://github.com/Ahmadalhomsi/Academic-Publication-Search-Engine/blob/Academic-Publication-Search-Engine/public/6.png>)
+![](<https://github.com/Ahmadalhomsi/Academic-Publication-Search-Engine/blob/Academic-Publication-Search-Engine/public/7.png>)
+![](<https://github.com/Ahmadalhomsi/Academic-Publication-Search-Engine/blob/Academic-Publication-Search-Engine/public/8.png>)
